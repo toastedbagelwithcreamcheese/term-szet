@@ -1,0 +1,71 @@
+html {
+	height: 100%;
+
+}
+
+body {
+	background-color: gray;
+	background-image: url('../kepek/bg-body.gif');
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-size: contain;
+	margin: 0;
+}
+
+div {
+	box-sizing: border-box;
+	color: DodgerBlue;
+	background-color: lightblue;
+	text-align: justify;
+	width: 90%;
+	height: auto;
+	max-width: 800px;
+	min-width: 200px;
+	padding: 20px;
+	border-width: 10px;
+	border-color: green;
+	border-style: solid;
+	margin: 20px auto 20px auto;
+	
+}
+.box {
+	width: 90%;
+	height: auto;
+	max-width: 640px;
+	min-width: 200px;
+	margin: 20px auto 20px auto;
+}
+.box .header-image {
+	background-image: url('../nature_200.jpg');
+	background-position: center top;
+	height: 200px;
+}
+
+.box .content {
+    font-family: Arial, Verdana, sans-serif;
+    background-color: white;
+    padding: 20px;
+}
+.box .content h1 {
+    color: #32859d;
+    margin: 0;
+}
+.box .content p {
+    color: #535353;
+    text-align: justify;
+}
+.box .content .details a {
+    background: #33cc33;
+    color: black;
+    padding: 5px 10px;
+    text-decoration: none;
+	margin: 20px 0 0 0
+}
+	
+
+	
+	
+
+
+
+
